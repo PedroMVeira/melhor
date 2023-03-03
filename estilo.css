@@ -1,0 +1,141 @@
+html{
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	color: white;
+	font-weight: 400;
+}
+
+.ph {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.80)), url("rafadedao.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+} 
+
+h2 {
+	font-size: 2.4rem;
+	margin-bottom: 1rem;
+}
+
+.ph p, li {
+	color: white;
+	font-size: 15px;
+}
+
+
+title {
+	font-size: 60px;
+	color: white;
+}
+
+#invisivel {
+	visibility: visible;
+}
+
+/* .content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 100px;
+} */
+
+.container {
+	width: 80vw;
+	margin: 0 auto;
+}
+
+.perguntas {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.alignCenter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 12px;
+}
+
+.conteiner lu {
+	padding-top: 12px;
+}
+
+.conteiner button {
+	color: black;
+	align-items: center;
+	padding-left: 0;
+}
+
+input {
+	padding: 5px;
+	border-radius: 4px;
+	outline: none;
+	border: 1px solid blue;
+	margin-top: 5px;
+}
+
+.botao {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+button {
+	border-radius: 4px;
+	border: 1px solid pink;
+} 
+
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	margin: 0 auto;
+	padding: 1.4rem;
+}
+
+.form-group {
+	margin-bottom: 1.6rem;
+	width: 100%;
+	padding: 0.2rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.form-group input {
+	width: auto;
+	padding: 0.2rem;
+}
+
+.form-group label {
+	font-size: 1.2rem;
+	display: block;
+	margin-bottom: 1rem;
+}
+
+.btn {
+	padding: 0.6rem 1.2rem;
+	width: 35%;
+	margin: 0 auto;
+	border: none;
+	border-radius: 0.3rem;
+	text-transform: uppercase;
+	font-size: 1rem;
+}
+
+.btn-primary {
+	background-color: black;
+	color: white;
+}
